@@ -1,0 +1,5 @@
+@BUILD_GNILND_TRUE@subdir-m += gnilnd
+@BUILD_O2IBLND_TRUE@subdir-m += o2iblnd
+subdir-m += socklnd
+
+@INCLUDE_RULES@

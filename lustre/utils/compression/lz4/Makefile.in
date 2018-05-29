@@ -1,0 +1,11 @@
+MODULES := lz4_compress lz4_decompress
+lz4_compress-objs := compress.o
+lz4_decompress-objs := decompress.o
+
+EXTRA_DIST := $(lz4_compress-objs:.o=.c)
+EXTRA_DIST += $(lz4_decompress-objs:.o=.c)
+EXTRA_DIST += lz4.h lz4defs.h
+
+EXTRA_PRE_CFLAGS := -O3
+
+@INCLUDE_RULES@

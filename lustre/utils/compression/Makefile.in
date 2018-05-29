@@ -1,0 +1,9 @@
+@LZ4_TRUE@subdir-m += lz4
+
+MODULES := compression
+compression-objs := cmp_pool.o
+
+EXTRA_DIST := $(compression-objs:.o=.c)
+EXTRA_DIST += cmp_pool.h
+
+@INCLUDE_RULES@

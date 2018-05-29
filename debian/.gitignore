@@ -1,0 +1,11 @@
+/*.log
+/*.substvars
+/files
+/linux-patch-lustre
+/lustre-dev
+/lustre-source
+/lustre-tests
+/lustre-tests.substvars
+/lustre-utils
+/lustre-utils.substvars
+/tmp

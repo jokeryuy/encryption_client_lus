@@ -1,0 +1,5 @@
+if MODULES
+modulefs_DATA = lz4_compress$(KMODEXT) lz4_decompress$(KMODEXT)
+endif
+
+MOSTLYCLEANFILES := @MOSTLYCLEANFILES@
